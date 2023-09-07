@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(214, 225, 240, 1);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.BackCard{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 27rem;
+    height: 700px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.QR{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url(images/image-qr-code.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 20px;
+    width: 90%;
+    height: 58%;
+}
+
+
+.texto1{
+    margin-left: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight:900;
+    width: 90%;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.texto2{
+    margin-left: 20px;
+    width: 90%;
+    text-align: center;
+    font-size: 25px;
+}
